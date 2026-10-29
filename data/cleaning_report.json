@@ -1,0 +1,32 @@
+{
+  "rows_in": 5000,
+  "nulls_before": 0,
+  "duplicate_chunk_ids_dropped": 0,
+  "invalid_rows_dropped": 0,
+  "doc_type_values_changed": 3702,
+  "anomalies": {
+    "none": 4843,
+    "hallucination_suspect": 64,
+    "retrieval_failure": 60,
+    "truncated_chunk": 33
+  },
+  "anomaly_rate": 0.0314,
+  "rule_flags_match_label_file": true,
+  "rows_out": 5000,
+  "columns_out": [
+    "doc_id",
+    "doc_type",
+    "chunk_id",
+    "word_count",
+    "retrieval_score",
+    "query_type",
+    "answer_quality_score",
+    "category",
+    "doc_type_original",
+    "anomaly_flag",
+    "anomaly_type",
+    "chunk_length_band",
+    "retrieval_band",
+    "quality_band"
+  ]
+}

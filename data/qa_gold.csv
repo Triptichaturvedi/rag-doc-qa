@@ -1,0 +1,151 @@
+qa_id,doc_id,question,answer,query_type,origin
+G001-1,DOC001,When did the Constitution of India come into force?,26 January 1950,factual,gold
+G001-2,DOC001,Which amendment inserted the words socialist and secular into the Preamble?,42nd Amendment Act of 1976,factual,gold
+G001-3,DOC001,What ideals does the Preamble secure to all citizens?,"justice (social, economic and political), liberty (of thought, expression, belief, faith and worship), equality (of status and of opportunity) and fraternity",summarization,gold
+G002-1,DOC002,What does Article 1 say India is?,a Union of States,factual,gold
+G002-2,DOC002,Which article lets Parliament form new States or alter state boundaries?,Under Article 3,procedural,gold
+G002-3,DOC002,Is Parliament bound by the views of a State Legislature on a bill altering its boundaries?,Parliament is not bound by those views,analytical,gold
+G003-1,DOC003,Which article empowers Parliament to regulate citizenship by law?,Article 11,factual,gold
+G003-2,DOC003,Does India allow dual citizenship?,India follows a system of single citizenship,analytical,gold
+G003-3,DOC003,"In what ways can citizenship be acquired under the Citizenship Act, 1955?","by birth, by descent, by registration, by naturalisation and by incorporation of territory",procedural,gold
+G004-1,DOC004,Which article abolishes untouchability?,Article 17,factual,gold
+G004-2,DOC004,Which amendment removed the right to property from the Fundamental Rights?,44th Amendment in 1978,factual,gold
+G004-3,DOC004,On which grounds does Article 15 prohibit discrimination?,"religion, race, caste, sex or place of birth",summarization,gold
+G005-1,DOC005,Which article protects life and personal liberty?,Article 21,factual,gold
+G005-2,DOC005,Within how many hours must an arrested person be produced before a magistrate?,within 24 hours,factual,gold
+G005-3,DOC005,Which age group does Article 21A cover for free and compulsory education?,children aged six to fourteen,factual,gold
+G006-1,DOC006,What does Article 24 prohibit?,"employment of children below the age of fourteen in factories, mines or other hazardous work",factual,gold
+G006-2,DOC006,Which article gives minorities the right to establish and administer educational institutions?,Article 30,factual,gold
+G006-3,DOC006,How do Article 29 and Article 30 differ?,"Article 29 protects the interests of minorities by giving any section of citizens the right to conserve its distinct language, script or culture, while Article 30",comparative,gold
+G007-1,DOC007,What are the five kinds of writs?,"habeas corpus, mandamus, prohibition, certiorari and quo warranto",factual,gold
+G007-2,DOC007,What does the writ of mandamus do?,mandamus commands a public authority to perform its legal duty,factual,gold
+G007-3,DOC007,Why is the writ jurisdiction of a High Court wider than that of the Supreme Court?,not only for Fundamental Rights but also for any other purpose,analytical,gold
+G008-1,DOC008,Are Directive Principles enforceable by courts?,not enforceable by any court,factual,gold
+G008-2,DOC008,Which article of the Directive Principles speaks of a uniform civil code?,Article 44,factual,gold
+G008-3,DOC008,How do Fundamental Rights differ from Directive Principles in enforceability?,not enforceable by any court but are nevertheless fundamental in the governance of the country,comparative,gold
+G009-1,DOC009,Which committee recommended the Fundamental Duties?,Swaran Singh Committee,factual,gold
+G009-2,DOC009,How many Fundamental Duties were there originally?,originally ten duties,factual,gold
+G009-3,DOC009,What is the eleventh Fundamental Duty?,requires a parent or guardian to provide opportunities for education to a child between six and fourteen years of age,summarization,gold
+G010-1,DOC010,What is the term of office of the President of India?,five years,factual,gold
+G010-2,DOC010,What is the minimum age to be a candidate for President?,completed thirty-five years of age,factual,gold
+G010-3,DOC010,How can the President be removed?,impeachment for violation of the Constitution,procedural,gold
+G011-1,DOC011,Who is the ex-officio Chairman of the Rajya Sabha?,The Vice-President is the ex-officio Chairman of the Rajya Sabha,factual,gold
+G011-2,DOC011,To whom is the Council of Ministers collectively responsible?,collectively responsible to the Lok Sabha,factual,gold
+G011-3,DOC011,How many ministers can the Council of Ministers have?,fifteen percent of the total strength of the Lok Sabha,analytical,gold
+G012-1,DOC012,How many members can the Rajya Sabha have at most?,maximum strength of 250 members,factual,gold
+G012-2,DOC012,What is the minimum age to contest Lok Sabha and Rajya Sabha elections?,at least 25 years old for the Lok Sabha and 30 years old for the Rajya Sabha,comparative,gold
+G012-3,DOC012,How often do Rajya Sabha members retire?,one-third of its members retire every second year,factual,gold
+G013-1,DOC013,Who presides over a joint sitting of Parliament?,presided over by the Speaker of the Lok Sabha,factual,gold
+G013-2,DOC013,Within how many days must the Rajya Sabha return a Money Bill?,within fourteen days,factual,gold
+G013-3,DOC013,Can the Rajya Sabha reject a Money Bill?,The Rajya Sabha may only make recommendations on a Money Bill,analytical,gold
+G014-1,DOC014,At what age do Supreme Court judges retire?,retire at the age of 65,factual,gold
+G014-2,DOC014,How many judges is the Supreme Court sanctioned to have?,"raised the sanctioned strength to 34, including the Chief Justice",factual,gold
+G014-3,DOC014,What is the advisory jurisdiction of the Supreme Court?,advisory jurisdiction under Article 143 when the President refers a question of law,summarization,gold
+G015-1,DOC015,Who appoints the Governor of a State?,appointed by the President under Article 155,factual,gold
+G015-2,DOC015,What is the retirement age of High Court judges?,retire at the age of 62,factual,gold
+G015-3,DOC015,How many members can a State Legislative Assembly have?,not more than 500 and not less than 60 members,factual,gold
+G016-1,DOC016,Who has the residuary power to legislate?,residuary power to legislate on subjects not mentioned in any list belongs to Parliament,factual,gold
+G016-2,DOC016,Which law prevails if a State law conflicts with a Union law on a Concurrent subject?,the Union law prevails under Article 254,analytical,gold
+G016-3,DOC016,Which amendment introduced the Goods and Services Tax?,101st Amendment in 2016,factual,gold
+G017-1,DOC017,On what grounds can a National Emergency be proclaimed under Article 352?,"war, external aggression or armed rebellion",factual,gold
+G017-2,DOC017,What is President's Rule?,"failure of constitutional machinery in a State, known as President's Rule",factual,gold
+G017-3,DOC017,Which fundamental rights cannot be suspended during an Emergency?,right to life and personal liberty under Article 21 and protection in respect of conviction under Article 20 cannot be suspended,analytical,gold
+G018-1,DOC018,Which article gives Parliament the power to amend the Constitution?,Article 368,factual,gold
+G018-2,DOC018,Which case established the basic structure doctrine?,Kesavananda Bharati v. State of Kerala (1973),factual,gold
+G018-3,DOC018,What majority is needed for most constitutional amendments?,a majority of the total membership of each House and at least two-thirds of the members present and voting,procedural,gold
+G019-1,DOC019,When did the 73rd Amendment come into force?,24 April 1993,factual,gold
+G019-2,DOC019,What share of panchayat seats is reserved for women?,Not less than one-third of the seats,factual,gold
+G019-3,DOC019,How do the Eleventh and Twelfth Schedules differ?,Eleventh Schedule listing 29 subjects,comparative,gold
+G020-1,DOC020,Which article gives the Election Commission control over elections?,Article 324,factual,gold
+G020-2,DOC020,How many languages are listed in the Eighth Schedule?,22 languages,factual,gold
+G020-3,DOC020,How often is the Finance Commission constituted?,constituted every five years,factual,gold
+G021-1,DOC021,How much money does PM-KISAN give each year?,"Rs 6,000 per year in three equal instalments of Rs 2,000",factual,gold
+G021-2,DOC021,How often are PM-KISAN instalments paid?,paid every four months,factual,gold
+G021-3,DOC021,Which ministry runs PM-KISAN?,Ministry of Agriculture and Farmers Welfare,factual,gold
+G022-1,DOC022,What is the health cover per family under PM-JAY?,Rs 5 lakh per family per year,factual,gold
+G022-2,DOC022,When was Ayushman Bharat PM-JAY launched?,23 September 2018,factual,gold
+G022-3,DOC022,Who was coverage extended to in 2024?,all citizens aged 70 years and above regardless of income,factual,gold
+G023-1,DOC023,How many days of work does VB-G RAM G guarantee?,125 days of wage employment per rural household per financial year,factual,gold
+G023-2,DOC023,When did VB-G RAM G replace MGNREGA?,From 1 July 2026,factual,gold
+G023-3,DOC023,What is the difference in guaranteed days between MGNREGA and VB-G RAM G?,raises the guarantee from 100 days to 125 days,comparative,gold
+G024-1,DOC024,When was PMJDY launched?,28 August 2014,factual,gold
+G024-2,DOC024,What is the overdraft limit under PMJDY?,"overdraft facility of up to Rs 10,000",factual,gold
+G024-3,DOC024,How does the accident insurance cover differ for older and newer accounts?,Rs 2 lakh for accounts opened after 28 August 2018 and Rs 1 lakh for accounts opened earlier,comparative,gold
+G025-1,DOC025,What is the unit assistance under PMAY-Gramin in plain areas?,Rs 1.20 lakh in plain areas,factual,gold
+G025-2,DOC025,What is the minimum house size under PMAY-Gramin?,minimum area of 25 square metres,factual,gold
+G025-3,DOC025,What are the four verticals of PMAY-Urban?,"In-situ Slum Redevelopment, Credit Linked Subsidy Scheme, Affordable Housing in Partnership and Beneficiary-led Construction",summarization,gold
+G026-1,DOC026,When was the Swachh Bharat Mission launched?,2 October 2014,factual,gold
+G026-2,DOC026,What is ODF Plus?,sustaining open defecation free status and on solid and liquid waste management,analytical,gold
+G026-3,DOC026,Which ministry manages the urban component of the Swachh Bharat Mission?,Ministry of Housing and Urban Affairs,factual,gold
+G027-1,DOC027,Who is eligible for a connection under Ujjwala Yojana?,adult woman from a Below Poverty Line household,factual,gold
+G027-2,DOC027,What financial support is given per connection?,"Rs 1,600 per connection",factual,gold
+G027-3,DOC027,What was the target raised to after five crore connections?,raised to eight crore,factual,gold
+G028-1,DOC028,What is the water supply standard under Jal Jeevan Mission?,55 litres of water per person per day,factual,gold
+G028-2,DOC028,When was Jal Jeevan Mission announced?,15 August 2019,factual,gold
+G028-3,DOC028,Who plans and maintains the water schemes at village level?,Village Water and Sanitation Committees or Pani Samitis,procedural,gold
+G029-1,DOC029,What is the eligible age range for joining Atal Pension Yojana?,between the ages of 18 and 40 years,factual,gold
+G029-2,DOC029,What monthly pension amounts does APY guarantee?,"Rs 1,000, Rs 2,000, Rs 3,000, Rs 4,000 or Rs 5,000",factual,gold
+G029-3,DOC029,Who receives the pension after the death of the subscriber?,the spouse receives the same pension,procedural,gold
+G030-1,DOC030,What is the maximum loan under PM MUDRA Yojana?,up to Rs 10 lakh,factual,gold
+G030-2,DOC030,What does the Shishu category cover?,"Shishu covers loans up to Rs 50,000",factual,gold
+G030-3,DOC030,What does MUDRA stand for?,Micro Units Development and Refinance Agency,factual,gold
+G031-1,DOC031,Where was Beti Bachao Beti Padhao launched?,at Panipat in Haryana,factual,gold
+G031-2,DOC031,Which law prohibits sex determination?,Pre-Conception and Pre-Natal Diagnostic Techniques Act of 1994,factual,gold
+G031-3,DOC031,What are the objectives of Beti Bachao Beti Padhao?,"prevent gender-biased sex-selective elimination, to ensure the survival and protection of the girl child, and to ensure her education and participation",summarization,gold
+G032-1,DOC032,When did the RTE Act come into force?,1 April 2010,factual,gold
+G032-2,DOC032,What share of seats must private unaided schools reserve under RTE?,25 percent of seats in Class I,factual,gold
+G032-3,DOC032,What did the 2019 amendment change?,allows States to hold back children in Classes V and VIII,analytical,gold
+G033-1,DOC033,How much foodgrain does a priority household get per person per month?,5 kg of foodgrains per person per month,factual,gold
+G033-2,DOC033,How much do Antyodaya Anna Yojana households receive?,35 kg per household per month,factual,gold
+G033-3,DOC033,How long was the free foodgrain supply extended for from January 2024?,extended the free supply for five years,factual,gold
+G034-1,DOC034,Within how many days must the Public Information Officer provide information?,within 30 days of the request,factual,gold
+G034-2,DOC034,What is the RTI application fee for central government bodies?,fee of Rs 10,factual,gold
+G034-3,DOC034,Where can a second appeal be made under RTI?,Central Information Commission or the State Information Commission within 90 days,procedural,gold
+G035-1,DOC035,When was Digital India launched?,1 July 2015,factual,gold
+G035-2,DOC035,How many pillars does Digital India have?,nine pillars,factual,gold
+G035-3,DOC035,Which ministry coordinates Digital India?,Ministry of Electronics and Information Technology,factual,gold
+G036-1,DOC036,How many functions does the NIST Cybersecurity Framework 2.0 have?,"six functions: Govern, Identify, Protect, Detect, Respond and Recover",factual,gold
+G036-2,DOC036,Which function was added in version 2.0?,Govern is the new function added in version 2.0,factual,gold
+G036-3,DOC036,What do Implementation Tiers describe?,how rigorous an organisation's risk governance and management practices are,analytical,gold
+G037-1,DOC037,What is the minimum password length when a password is the only factor in Revision 4?,minimum password length of 15 characters when a password is the only authentication factor,factual,gold
+G037-2,DOC037,Should organisations force periodic password changes?,should not require users to change passwords periodically unless there is evidence of compromise,analytical,gold
+G037-3,DOC037,What does AAL2 require?,AAL2 requires two distinct factors,factual,gold
+G038-1,DOC038,What are the four phases of the incident response life cycle in Revision 2?,"Preparation; Detection and Analysis; Containment, Eradication and Recovery; and Post-Incident Activity",factual,gold
+G038-2,DOC038,What does containment do?,Containment limits the damage,factual,gold
+G038-3,DOC038,How does Revision 3 change incident response?,realigns incident response with the six functions of the NIST Cybersecurity Framework 2.0,analytical,gold
+G039-1,DOC039,What are the three sanitization methods in NIST SP 800-88?,three sanitization methods,factual,gold
+G039-2,DOC039,Which method makes media unusable using shredding or incineration?,Destroy renders the media unusable,factual,gold
+G039-3,DOC039,What should a certificate of sanitization record?,"media type, the method used, the date and the person who performed it",summarization,gold
+G040-1,DOC040,What are the four core functions of the NIST AI RMF?,Govern cultivates a culture of risk management,factual,gold
+G040-2,DOC040,What is confabulation in generative AI?,"confabulation, where a model produces confident but false content",factual,gold
+G040-3,DOC040,How many characteristics of trustworthy AI are described?,seven characteristics of trustworthy AI,factual,gold
+G041-1,DOC041,How many control families does SP 800-53 Revision 5 have?,grouped into 20 families,factual,gold
+G041-2,DOC041,What are the three baseline levels?,"low, moderate and high impact",factual,gold
+G041-3,DOC041,Which publication defines the control baselines?,SP 800-53B,factual,gold
+G042-1,DOC042,What are the two major stages of the NASA life cycle?,Formulation and Implementation,factual,gold
+G042-2,DOC042,What is the difference between verification and validation?,"Verification confirms that a product meets its requirements, while validation confirms that it fulfils the intended use in the operational environment",comparative,gold
+G042-3,DOC042,How many common technical processes does the handbook describe?,17 common technical processes,factual,gold
+G043-1,DOC043,How much water should a kit contain per person per day?,one gallon of water per person per day for at least three days,factual,gold
+G043-2,DOC043,What are the three steps of preparedness?,"get informed about hazards in the area, make a family emergency plan, and build an emergency supply kit",summarization,gold
+G043-3,DOC043,What should the basic kit supply for at least how long?,enough supplies for at least three days,factual,gold
+G044-1,DOC044,How precise is a six-digit grid coordinate?,six-digit grid coordinate locates a point to within 100 metres,factual,gold
+G044-2,DOC044,How do you calculate a back azimuth?,adding 180 degrees to an azimuth below 180 or subtracting 180 degrees from one above 180,procedural,gold
+G044-3,DOC044,What are the three norths?,"true north toward the North Pole, grid north defined by the vertical grid lines, and magnetic north",summarization,gold
+G045-1,DOC045,"What does a scale of 1:24,000 mean on a USGS quadrangle?","one inch on the map represents 2,000 feet on the ground",factual,gold
+G045-2,DOC045,What colour represents water on a USGS topographic map?,blue for water,factual,gold
+G045-3,DOC045,What do closely spaced contour lines indicate?,Closely spaced contours indicate a steep slope,analytical,gold
+G046-1,DOC046,What wind speeds define a Category 5 hurricane?,157 miles per hour or higher,factual,gold
+G046-2,DOC046,Which categories are called major hurricanes?,"Categories 3, 4 and 5",factual,gold
+G046-3,DOC046,Does the Saffir-Simpson scale account for storm surge?,does not account for storm surge,analytical,gold
+G047-1,DOC047,What are the stages of conventional water treatment?,"coagulation, chemicals such as alum are added",summarization,gold
+G047-2,DOC047,What does the Safe Drinking Water Act of 1974 authorise?,authorises the Environmental Protection Agency to set national standards for contaminants,factual,gold
+G047-3,DOC047,Why is turbidity monitored?,can shelter microorganisms from disinfection,analytical,gold
+G048-1,DOC048,How many steps does a typical lockout procedure have?,typical lockout procedure has six steps,factual,gold
+G048-2,DOC048,How often must the energy control procedures be inspected?,periodic inspections at least annually,factual,gold
+G048-3,DOC048,Who may remove a lock?,only the person who applied a lock may remove it,procedural,gold
+G049-1,DOC049,How many sections does a safety data sheet have?,standard 16-section format,factual,gold
+G049-2,DOC049,What are the two signal words?,Danger for the more severe hazards and Warning for the less severe hazards,factual,gold
+G049-3,DOC049,Which GHS pictogram is not mandatory under OSHA?,environmental pictogram is not mandatory,analytical,gold
+G050-1,DOC050,What is the safe minimum internal temperature for poultry?,"All poultry, including ground poultry, must reach 165 degrees Fahrenheit",factual,gold
+G050-2,DOC050,What is the danger zone for bacterial growth?,between 40 and 140 degrees Fahrenheit,factual,gold
+G050-3,DOC050,How do the temperature requirements for ground meat and whole cuts differ?,"Ground meats such as beef, pork, veal and lamb must reach 160 degrees Fahrenheit",comparative,gold

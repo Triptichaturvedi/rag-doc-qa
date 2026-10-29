@@ -1,0 +1,14 @@
+# Full stack (LangChain + ChromaDB). If the deploy fails on chromadb, use requirements-lite.txt instead
+# (copy it over requirements.txt) - the app then runs in offline TF-IDF mode.
+streamlit>=1.40
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4
+pypdf>=4.0
+python-docx>=1.1
+langchain-core>=0.3
+langchain-chroma>=0.2
+langchain-openai>=0.3
+chromadb>=0.5
+pysqlite3-binary; sys_platform == "linux"
+# Optional local LLM via Ollama:  pip install langchain-ollama

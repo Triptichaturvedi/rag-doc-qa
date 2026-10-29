@@ -1,0 +1,15 @@
+column_name,data_type,sample_value_1,sample_value_2,sample_value_3,nullable,description_fill_in,allowed_values_or_range,column_origin
+doc_id,string,DOC002,DOC034,DOC013,No,Identifier of the source document in the 50-document corpus. Joins to corpus_manifest.csv.,DOC001-DOC050,original
+doc_type,category,Markdown,TXT,Markdown,No,"Nominal file format of the source document, harmonised so each doc_id has exactly one value (the raw data listed several different formats, up to five, for the same document).",PDF | Word | TXT | Markdown | HTML,original (cleaned)
+chunk_id,string,CHK00001,CHK00002,CHK00003,No,Identifier of the top-ranked text chunk returned for the query. Sequential and unique per row.,"CHK00001-CHK05000, unique",original
+word_count,integer,457,302,52,No,Number of words in the retrieved chunk. Values below 50 indicate a truncated chunk and are flagged as anomalies.,5-499 words,original
+retrieval_score,float,0.5962,0.7397,0.7735,No,Similarity between the query and the top-ranked chunk; higher means a closer match. Values below 0.5 indicate retrieval failure.,0.0-1.0 (4 d.p.),original
+query_type,category,analytical,factual,comparative,No,"Kind of question asked: factual lookup, how-to/procedure, comparison, reasoning/analysis, or request for a summary.",factual | procedural | comparative | analytical | summarization,original
+answer_quality_score,float,0.942,0.976,0.66,No,"Quality of the generated answer (1 = fully correct and supported by the retrieved chunk, 0 = wrong or unsupported). Low values with high retrieval_score suggest hallucination.",0.0-1.0 (3 d.p.),original
+category,category,Constitution,Government Scheme,Constitution,No,"Corpus category of the source document, looked up from corpus_manifest.csv.",Constitution | Government Scheme | Technical Manual,derived
+doc_type_original,category,TXT,TXT,HTML,No,The doc_type value as it appeared before harmonisation; kept for traceability.,PDF | Word | TXT | Markdown | HTML,derived
+anomaly_flag,integer (0/1),0,0,0,No,"1 if the row meets any anomaly rule (retrieval_score < 0.5, word_count < 50, or retrieval_score >= 0.85 with answer_quality_score < 0.55).",0 or 1,derived
+anomaly_type,category,none,none,none,No,"Which anomaly rule fired. Rules are checked in the order retrieval_failure, hallucination_suspect, truncated_chunk.",none | retrieval_failure | hallucination_suspect | truncated_chunk,derived
+chunk_length_band,category,long,long,short,No,Binned word_count for grouping and plotting.,short (<100) | medium (100-299) | long (>=300),derived
+retrieval_band,category,low,medium,medium,No,Binned retrieval_score.,low (<0.60) | medium (0.60-0.849) | high (>=0.85),derived
+quality_band,category,good,good,fair,No,Binned answer_quality_score.,poor (<0.60) | fair (0.60-0.799) | good (>=0.80),derived

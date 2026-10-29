@@ -1,0 +1,7 @@
+# Minimal, fast-to-install set: runs the TF-IDF retriever + extractive answerer (no API keys, no downloads).
+streamlit>=1.40
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4
+pypdf>=4.0
+python-docx>=1.1

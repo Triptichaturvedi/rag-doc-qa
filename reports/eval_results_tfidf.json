@@ -1,0 +1,151 @@
+{
+  "config": {
+    "backend": "tfidf",
+    "llm": "extractive",
+    "llm_model": "gpt-4o-mini",
+    "chunk_words": 90,
+    "top_k": 4,
+    "min_score": null,
+    "sweep": true,
+    "min_score_used": 0.15,
+    "calibrated_threshold": 0.19,
+    "n_chunks": 155
+  },
+  "gold": {
+    "n": 150,
+    "doc_hit@1": 0.9666666666666667,
+    "support_hit@1": 0.9,
+    "doc_hit@3": 0.9933333333333333,
+    "support_hit@3": 0.9933333333333333,
+    "doc_hit@5": 0.9933333333333333,
+    "support_hit@5": 0.9933333333333333,
+    "doc_mrr@5": 0.98,
+    "answer_recall_mean": 0.8224689754689755,
+    "answer_correct_rate": 0.8,
+    "false_abstain_rate": 0.06666666666666667,
+    "latency_ms_mean": 2.4999640666666836,
+    "latency_ms_p95": 3.0463649499999685
+  },
+  "synthetic_cloze": {
+    "n": 850,
+    "doc_hit@1": 1.0,
+    "support_hit@1": 0.9741176470588235,
+    "doc_hit@3": 1.0,
+    "support_hit@3": 0.9870588235294118,
+    "doc_hit@5": 1.0,
+    "support_hit@5": 0.9870588235294118,
+    "doc_mrr@5": 1.0,
+    "answer_recall_mean": 0.9847058823529412,
+    "answer_correct_rate": 0.9847058823529412,
+    "false_abstain_rate": 0.0,
+    "latency_ms_mean": 2.3020113552941255,
+    "latency_ms_p95": 3.306803000000169
+  },
+  "gold_by_query_type": [
+    {
+      "query_type": "analytical",
+      "n": 16,
+      "doc_hit@1": 0.875,
+      "doc_hit@3": 0.938,
+      "answer_correct_rate": 0.75
+    },
+    {
+      "query_type": "comparative",
+      "n": 8,
+      "doc_hit@1": 1.0,
+      "doc_hit@3": 1.0,
+      "answer_correct_rate": 0.625
+    },
+    {
+      "query_type": "factual",
+      "n": 107,
+      "doc_hit@1": 0.972,
+      "doc_hit@3": 1.0,
+      "answer_correct_rate": 0.794
+    },
+    {
+      "query_type": "procedural",
+      "n": 9,
+      "doc_hit@1": 1.0,
+      "doc_hit@3": 1.0,
+      "answer_correct_rate": 1.0
+    },
+    {
+      "query_type": "summarization",
+      "n": 10,
+      "doc_hit@1": 1.0,
+      "doc_hit@3": 1.0,
+      "answer_correct_rate": 0.9
+    }
+  ],
+  "gold_by_category": [
+    {
+      "category": "Constitution",
+      "n": 60,
+      "doc_hit@1": 0.95,
+      "doc_hit@3": 1.0,
+      "answer_correct_rate": 0.833
+    },
+    {
+      "category": "Government Scheme",
+      "n": 45,
+      "doc_hit@1": 0.956,
+      "doc_hit@3": 0.978,
+      "answer_correct_rate": 0.756
+    },
+    {
+      "category": "Technical Manual",
+      "n": 45,
+      "doc_hit@1": 1.0,
+      "doc_hit@3": 1.0,
+      "answer_correct_rate": 0.8
+    }
+  ],
+  "abstention": {
+    "threshold": 0.15,
+    "out_of_scope_correctly_abstained": 0.7666666666666667,
+    "in_scope_wrongly_abstained": 0.06666666666666667,
+    "n_out_of_scope": 30,
+    "n_in_scope": 150,
+    "median_top_score_in_scope": 0.30049088208311575,
+    "median_top_score_out_of_scope": 0.0884305093356926
+  },
+  "chunk_sensitivity_gold": [
+    {
+      "chunk_words": 60,
+      "n_chunks": 249,
+      "doc_hit@1": 0.953,
+      "doc_hit@3": 0.993,
+      "support_hit@3": 0.973,
+      "doc_mrr@5": 0.971,
+      "answer_correct_rate": 0.813
+    },
+    {
+      "chunk_words": 90,
+      "n_chunks": 155,
+      "doc_hit@1": 0.967,
+      "doc_hit@3": 0.993,
+      "support_hit@3": 0.993,
+      "doc_mrr@5": 0.98,
+      "answer_correct_rate": 0.8
+    },
+    {
+      "chunk_words": 120,
+      "n_chunks": 102,
+      "doc_hit@1": 0.98,
+      "doc_hit@3": 0.993,
+      "support_hit@3": 0.993,
+      "doc_mrr@5": 0.987,
+      "answer_correct_rate": 0.793
+    },
+    {
+      "chunk_words": 200,
+      "n_chunks": 51,
+      "doc_hit@1": 0.973,
+      "doc_hit@3": 0.993,
+      "support_hit@3": 0.993,
+      "doc_mrr@5": 0.983,
+      "answer_correct_rate": 0.753
+    }
+  ]
+}
